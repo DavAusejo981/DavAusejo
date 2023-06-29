@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .Image {background-color: #6c757d;
+        border-radius: 25px;
+        padding-left: 13px;
+        padding-right: 13px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        position: fixed;
+        top: 220px;
+        left: 1330px;
+        transition: background-color 0.3s;}
+    .Image:hover {background-color: #0077ff;}
+    .Text {visibility:hidden;
+        opacity: 0;
+        background-color: #0077ff;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+        border-radius: 25px;
+        font-family: helvetica;
+        font-weight: 600;
+        color: white;
+        position:absolute;
+        bottom: 55px;
+        right: 20px;
+        transition: visibility 0.6s, opacity 0.6s;}
+    .Image:hover .Text {visibility: visible;
+        opacity: 1}
+    .Img {background-color:#6c757d;
+        border-radius: 25px;
+        padding-left: 13px;
+        padding-right: 13px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        position: fixed;
+        top: 300px;
+        left: 1330px;
+        transition: background-color 0.3s}
+    .Img:hover {background-color: #0077ff;}
+    .Abt {visibility:hidden;
+        opacity: 0;
+        background-color: #0077ff;
+        width: 70px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+        border-radius: 25px;
+        font-family: helvetica;
+        font-weight: 600;
+        color: white;
+        position:absolute;
+        bottom: 55px;
+        right: 1px;
+        transition: visibility 0.6s, opacity 0.6s;}
+    .Img:hover .Abt {visibility: visible;
+        opacity: 1}
+    .Png {background-color:#0077ff;
+        border-radius: 25px;
+        padding-left: 13px;
+        padding-right: 13px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        position: fixed;
+        top: 380px;
+        left: 1330px;
+        transition: background-color 0.3s;}
+    .Pt {visibility:hidden;
+        opacity: 0;
+        background-color: #0077ff;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+        border-radius: 25px;
+        font-family: helvetica;
+        font-weight: 600;
+        color: white;
+        position:absolute;
+        bottom: 55px;
+        right: 1px;
+        transition: visibility 0.6s, opacity 0.6s;}
+    .Png:hover .Pt {visibility: visible;
+        opacity: 1}
+    .frames {position: fixed;
+    width: 35%;
+    top: 200px;
+    left: 130px;
+    border-style: solid;
+    border-color: #0077ff;
+    border-width: 2px;
+    border-radius: 25px;}
+  .imageframes {display: block;
+    width: 100%;
+    height: 250px;
+    border-radius: 25px;}
+  .framestext {position: absolute;
+    text-align: center;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.75);
+    overflow:hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 25px;}
+  .frames:hover .framestext {height: 100%;}
+  .frames1 {position: fixed;
+    width: 35%;
+    top: 200px;
+    left: 780px;
+    border-style: solid;
+    border-color: #0077ff;
+    border-width: 2px;
+    border-radius: 25px;}
+  .imageframes1 {display: block;
+    width: 100%;
+    height: 250px;
+    border-radius: 25px;}
+  .framestext1 {position: absolute;
+    text-align: center;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.75);
+    overflow:hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 25px;}
+  .frames1:hover .framestext1 {height: 100%;}
+  .facebook {background-color: #6c757d;
+    transition: all .5s ease;}
+  .facebook:hover {background-color:#0077ff; transform: scale(1.2)}
+  .instagram {background-color: #6c757d;
+  transition: all .5s ease;}
+  .instagram:hover {background-color:#E1306C; transform: scale(1.2)}
+  .mail {background-color: #6c757d;
+  transition: all .5s ease;}
+  .mail:hover {background-color:white; transform: scale(1.2)}
+</style>
+<body bgcolor="#111">
+    <div class="Image"><a href="ICT Project About Me.html"><img src="home.png" height="20px" width="20px"></a>
+        <span class="Text">Home</span>
+      </div>
+      <div class="Img"><a href="ICT Project About Me Part 2.html"><img src="User.png" height="20px" width="20px"></a>
+        <span class="Abt">About Me</span>
+      </div>
+      <div class="Png"><a href="ICT Project About Me Part 3.html"><img src="Portfolio.png" height="20px" width="20px"></a>
+        <span class="Pt">Portfolio</span>
+      </div>
+      <h1 style="color: white;font-family: 'Poppins', sans-serif;font-weight: 900;font-size: 50px;text-align: center;">MY <span style="color:#0077ff">WORKS</span></h1>
+      <h1 style="color: rgba(255, 255, 255, 0.07);font-family: 'Poppins', sans-serif;font-weight: 800;font-size: 80px; letter-spacing: 10px;position: absolute; bottom: 610px; left: 400px;">PORTFOLIO</h1>
+      <a href="IFrame/Frames_Html_Mendel.html"> <div class="frames">
+        <img src="Iframes.png" class="imageframes">
+        <div class="framestext">
+        <h1 style="color: white;font-family: 'Poppins', sans-serif;font-size: 30px;  transform: rotate(-5deg), skewx(-5deg);margin-top: 22%;margin-left: 25%;position:absolute;text-align: center;"> IFrames Activity</h1>
+        </div>
+        </div></a>
+        <a href="Grouping/Group 3.html"> <div class="frames1">
+            <img src="Group3.png" class="imageframes1">
+            <div class="framestext1">
+            <h1 style="color: white;font-family: 'Poppins', sans-serif;font-size: 30px;  transform: rotate(-5deg), skewx(-5deg);margin-top: 22%;margin-left: 19%;position:absolute;text-align: center;"> IFrames Group Activity</h1>
+            </div>
+            </div></a>
+            <hr color="#8a959e" style="width:70%">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <hr color="#8a959e" style="width:70%">
+            <h1 style="color: white;font-family: 'Poppins', sans-serif;font-weight: 700; font-size: 25px;padding-left: 12%;padding-top: 2%;">SOCIALS</h1>
+            <a href="https://www.facebook.com/davionchester.ausejo/"><img class="facebook" src="Facebook.png" width="30px" height="30px" style="position:fixed; left:150px;border-radius: 25px; padding-left: 10px;padding-right: 10px;padding-top: 10px;padding-bottom: 10px;cursor:pointer;"></a>
+            <a href="https://www.instagram.com/davionausejo/"><img class="instagram" src="Instagram.png" width="30px" height="30px" style="position:fixed; left:250px;border-radius: 25px; padding-left: 10px;padding-right: 10px;padding-top: 10px;padding-bottom: 10px;cursor:pointer;"></a>
+            <h1 style="color: white;font-family: 'Poppins', sans-serif;font-weight: 700; font-size: 25px; position:absolute; bottom: 165px; left: 34%">GMAIL</h1>
+            <p style="color: white;font-family: helvetica;font-size: 15px; text-align: right;margin-right: 50.2%; font-weight: 700 ;">Any concerns? Send an email!
+            <br> <span style="font-weight: 500;">davionausejo95@gmail.com</span></p> <a href="https://mail.google.com/mail/u/0/#inbox"><img class="mail" src="Mail.png" width="30px" height="30px" style="position:fixed; left:720px; bottom: 125px;border-radius: 25px; padding-left: 10px;padding-right: 10px;padding-top: 10px;padding-bottom: 10px;cursor:pointer;"></a>
+          </body>
+</html>

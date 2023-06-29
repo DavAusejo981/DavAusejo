@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <style>
+    .background {position: fixed;
+        height: 200%;
+        width: 100%;
+        transform: rotate(-15deg);
+        left: -83%;
+        top: -50%;
+        background-color: #0077ff;}
+    .button {position: absolute;
+        top: 490px;
+        left: 680px;
+        color:#0077ff;
+        font-size:20px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color:#b1d5ff;
+        border:#0077ff;
+        border-width: 5px;
+        border-style:solid;
+        border-radius: 30px;
+        cursor: pointer;
+        width:200px; 
+        height:50px;
+        transition-property: transform;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+        transition: transform 0.3s, background-color 0.3s, color 0.3s;}
+    .button:hover {transform: translateY(-10px);
+        background-color:#0077ff;
+        color: white;}
+    .Image {background-color: #0077ff;
+        border-radius: 25px;
+        padding-left: 13px;
+        padding-right: 13px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        position: absolute;
+        top: 220px;
+        left: 1330px;}
+    .Text {visibility:hidden;
+        opacity: 0;
+        background-color: #0077ff;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+        border-radius: 25px;
+        font-family: helvetica;
+        font-weight: 600;
+        color: white;
+        position:absolute;
+        bottom: 55px;
+        right: 20px;
+        transition: visibility 0.6s, opacity 0.6s;}
+    .Image:hover .Text {visibility: visible;
+        opacity: 1}
+    .Img {background-color: #6c757d;
+        border-radius: 25px;
+        padding-left: 13px;
+        padding-right: 13px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        position: absolute;
+        top: 300px;
+        left: 1330px;
+        transition: background-color 0.3s}
+    .Abt {visibility:hidden;
+        opacity: 0;
+        background-color: #0077ff;
+        width: 70px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+        border-radius: 25px;
+        font-family: helvetica;
+        font-weight: 600;
+        color: white;
+        position:absolute;
+        bottom: 55px;
+        right: 20px;
+        transition: visibility 0.6s, opacity 0.6s;}
+    .Img:hover .Abt {visibility: visible;
+        opacity: 1}
+    .Img:hover {background-color: #0077ff;}
+    .Png {background-color: #6c757d;
+        border-radius: 25px;
+        padding-left: 13px;
+        padding-right: 13px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        position: fixed;
+        top: 380px;
+        left: 1330px;
+        transition: background-color 0.3s;}
+    .Png:hover {background-color: #0077ff;}
+    .Pt {visibility:hidden;
+        opacity: 0;
+        background-color: #0077ff;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+        border-radius: 25px;
+        font-family: helvetica;
+        font-weight: 600;
+        color: white;
+        position:absolute;
+        bottom: 55px;
+        right: 20px;
+        transition: visibility 0.6s, opacity 0.6s;}
+    .Png:hover .Pt {visibility: visible;
+        opacity: 1}
+    </style>
+    <head><title>Ausejo Personal Information</title></head>
+<body bgcolor="#111">
+    <div class="background"></div>
+    <img src="Picture.jpg" style="border-radius: 10px;position: absolute;height: 600px;width: 500px;top: 80px;left: 100px;">
+    <p style="position: absolute;top: 230px;left: 680px;color: white;font-family: helvetica;font-size: 20px">YO, WHAT'S UP !</p>
+    <h1 style="position: absolute;top: 240px;left: 680px;color: white;font-weight: 900;font-family: 'Poppins', sans-serif;font-size: 50px">I'M <span style="color: #0077ff;">DAVION</span></h1>
+    <h1 style="position: absolute;top: 290px;left: 680px;color: #0077ff;font-weight: 900;font-family: 'Poppins', sans-serif;font-size: 50px">CHESTER AUSEJO</h1>
+    <p style="position: absolute;top: 390px;left: 680px;color: white;font-family: helvetica;font-size: 15px">I am a student of RTPM - DSHS from grade 8 - Mendel. I like playing basketball and chess, 
+    <br><br>I also like coding HTML and CSS for fun!</p>
+    <a href="ICT Project About Me Part 2.html"><input type="button" class="button" value="MORE ABOUT ME"></a>
+        <div class="Image"><a href="ICT Project About Me.html"><img src="home.png" height="20px" width="20px"></a>
+            <span class="Text">Home</span>
+          </div>
+          <div class="Img"><a href="ICT Project About Me Part 2.html"><img src="User.png" height="20px" width="20px"></a>
+            <span class="Abt">About Me</span>
+          </div>
+          <div class="Png"><a href="ICT Project About Me Part 3.html"><img src="Portfolio.png" height="20px" width="20px"></a>
+            <span class="Pt">Portfolio</span>
+          </div>
+</body>
+</html>
